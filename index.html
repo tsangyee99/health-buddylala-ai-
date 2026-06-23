@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alessandro's Health — Formulated with restraint, for everyday care.</title>
+  <meta name="description" content="Alessandro's Health — An everyday care system from Hong Kong, covering skin comfort, nasal comfort, body recovery, and aging-aware lifestyle support.">
+  <meta property="og:title" content="Alessandro's Health">
+  <meta property="og:description" content="Formulated with restraint, for everyday care. Hong Kong.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yukcho.buddylala.ai">
+  <meta property="og:image" content="https://yukcho.buddylala.ai/images/hero/hero-main.png">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🌿</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=5">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <div class="header-left">
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="header-center">
+        <a href="/" class="logo">
+          <span class="logo-text">Alessandro's Health</span>
+        </a>
+      </div>
+      <div class="header-right">
+        <div class="lang-switcher" id="langSwitcher">
+          <button class="lang-toggle" id="langToggle" aria-label="Language">
+            <span class="lang-current" id="langCurrent">EN</span>
+            <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M1 1l4 4 4-4"/></svg>
+          </button>
+          <div class="lang-dropdown" id="langDropdown">
+            <button class="lang-option active" data-lang="en">English</button>
+            <button class="lang-option" data-lang="ja">日本語</button>
+            <button class="lang-option" data-lang="fr">Français</button>
+            <button class="lang-option" data-lang="zh-Hant">繁體中文</button>
+            <button class="lang-option" data-lang="zh-Hans">简体中文</button>
+          </div>
+        </div>
+        <a href="#contact" class="header-cta" data-i18n="nav.enquire">Enquire</a>
+      </div>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#standard" data-i18n="nav.standard">Standard</a></li>
+        <li><a href="#focus" data-i18n="nav.focus">Focus</a></li>
+        <li><a href="#products" data-i18n="nav.products">Products</a></li>
+        <li><a href="#culture" data-i18n="nav.culture">Brand</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== MOBILE MENU ========== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+      <nav>
+        <ul>
+          <li><a href="#standard" data-i18n="nav.standard">Standard</a></li>
+          <li><a href="#focus" data-i18n="nav.focus">Focus</a></li>
+          <li><a href="#products" data-i18n="nav.products">Products</a></li>
+          <li><a href="#culture" data-i18n="nav.culture">Brand</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero/hero-main.png" alt="Alessandro's Health" class="hero-bg-img" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-inner">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Everyday Care & Wellness — Hong Kong</p>
+      <h1 class="hero-title" data-i18n-html="hero.title">Formulated with restraint,<br>for everyday care.</h1>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">An everyday care system from Hong Kong, covering skin comfort, nasal comfort, body recovery, and aging-aware lifestyle support.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn--primary" data-i18n="hero.cta1">Get in Touch</a>
+        <a href="#standard" class="btn btn--outline" data-i18n="hero.cta2">Our Standard</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== STANDARD (Three Pillars) ========== -->
+  <section class="section standard-section" id="standard">
+    <div class="section-container">
+      <div class="section-intro">
+        <p class="section-eyebrow" data-i18n="standard.eyebrow">Our Standard</p>
+        <h2 class="section-title" data-i18n="standard.title">A quieter standard for everyday care.</h2>
+        <p class="section-lead" data-i18n="standard.lead">Alessandro's Health is built for practical everyday routines, lower burden of use, and responsible communication.</p>
+      </div>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <div class="pillar-number">01</div>
+          <h3 class="pillar-title" data-i18n="standard.p1_title">Low-Burden Use</h3>
+          <p class="pillar-desc" data-i18n="standard.p1_desc">Everyday forms should be easy to understand, repeat, and live with.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-number">02</div>
+          <h3 class="pillar-title" data-i18n="standard.p2_title">Evidence-Aware Language</h3>
+          <p class="pillar-desc" data-i18n="standard.p2_desc">Communication stays precise, careful, and proportionate to what is known.</p>
+        </div>
+        <div class="pillar-card">
+          <div class="pillar-number">03</div>
+          <h3 class="pillar-title" data-i18n="standard.p3_title">Long-Term Trust</h3>
+          <p class="pillar-desc" data-i18n="standard.p3_desc">Portfolio decisions are guided by credibility, restraint, and consistency.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOCUS AREAS (with images) ========== -->
+  <section class="section focus-section" id="focus">
+    <div class="section-container">
+      <div class="section-intro section-intro--center">
+        <p class="section-eyebrow" data-i18n="focus.eyebrow">Current Focus Areas</p>
+        <h2 class="section-title" data-i18n="focus.title">Four everyday care domains.</h2>
+        <p class="section-lead" data-i18n="focus.lead">Each domain addresses a specific set of everyday body signals — designed for low burden, repeatability, and quiet effectiveness.</p>
+      </div>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <div class="focus-card-image">
+            <img src="images/focus/skin-comfort.png" alt="Skin Comfort" loading="lazy">
+          </div>
+          <div class="focus-card-body">
+            <h3 class="focus-title" data-i18n="focus.skin_title">Skin Comfort</h3>
+            <p class="focus-desc" data-i18n="focus.skin_desc">An everyday care concept for sensitive, dry, itchy, or easily irritated skin.</p>
+            <span class="focus-signals" data-i18n="focus.skin_signals">Dry · Itchy · Flush</span>
+          </div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-image">
+            <img src="images/focus/nasal-comfort.png" alt="Nasal Comfort" loading="lazy">
+          </div>
+          <div class="focus-card-body">
+            <h3 class="focus-title" data-i18n="focus.nasal_title">Nasal Comfort</h3>
+            <p class="focus-desc" data-i18n="focus.nasal_desc">A low-burden nasal care concept for seasonal and environmental sensitivity.</p>
+          </div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-image">
+            <img src="images/focus/body-recovery.png" alt="Body Recovery" loading="lazy">
+          </div>
+          <div class="focus-card-body">
+            <h3 class="focus-title" data-i18n="focus.body_title">Body Recovery</h3>
+            <p class="focus-desc" data-i18n="focus.body_desc">Formats designed for fatigue, stiffness, and everyday physical discomfort.</p>
+            <span class="focus-signals" data-i18n="focus.body_signals">Pain · Ache · Stiff</span>
+          </div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-card-image">
+            <img src="images/focus/qingcha-tea.png" alt="Qingcha iTea" loading="lazy">
+          </div>
+          <div class="focus-card-body">
+            <h3 class="focus-title" data-i18n="focus.tea_title">Qingcha / iTea</h3>
+            <p class="focus-desc" data-i18n="focus.tea_desc">A tea-based everyday drink concept developed for lightness, habit, and modern living.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NINE SIGNALS ========== -->
+  <section class="section signals-section">
+    <div class="section-container">
+      <div class="section-intro section-intro--center">
+        <p class="section-eyebrow" data-i18n="signals.eyebrow">Understanding the Body</p>
+        <h2 class="section-title" data-i18n="signals.title">Nine early body signals.</h2>
+        <p class="section-lead" data-i18n="signals.lead">AH identifies nine early body signals as starting points for personalised, low-burden intervention.</p>
+      </div>
+      <div class="signals-grid">
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s1_char">Pain</span><span class="signal-en" data-i18n="signals.s1_en">Pain</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s2_char">Ache</span><span class="signal-en" data-i18n="signals.s2_en">Sore-Ache</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s3_char">Itch</span><span class="signal-en" data-i18n="signals.s3_en">Itchy</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s4_char">Dry</span><span class="signal-en" data-i18n="signals.s4_en">Dry</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s5_char">Numb</span><span class="signal-en" data-i18n="signals.s5_en">Numb</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s6_char">Bloat</span><span class="signal-en" data-i18n="signals.s6_en">Bloated</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s7_char">Tight</span><span class="signal-en" data-i18n="signals.s7_en">Tight</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s8_char">Stiff</span><span class="signal-en" data-i18n="signals.s8_en">Stiff</span></div>
+        <div class="signal-item"><span class="signal-char" data-i18n="signals.s9_char">Flush</span><span class="signal-en" data-i18n="signals.s9_en">Flush</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BRAND STATEMENT (Full-width) ========== -->
+  <section class="brand-statement">
+    <div class="brand-statement-inner">
+      <blockquote>
+        <p data-i18n-html="brand_statement">Not about creating more choices,<br>but filtering what is truly worth keeping.</p>
+        <footer>— Alessandro's Standard</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ========== PRODUCT SYSTEM ========== -->
+  <section class="section products-section" id="products">
+    <div class="section-container">
+      <div class="section-intro">
+        <p class="section-eyebrow" data-i18n="products.eyebrow">Product System</p>
+        <h2 class="section-title" data-i18n-html="products.title">A controlled portfolio,<br>not a noisy catalogue.</h2>
+        <p class="section-lead" data-i18n="products.lead">Every product in the AH system exists because it addresses a concrete, observable need.</p>
+      </div>
+
+      <!-- Product Table -->
+      <div class="product-table-wrap">
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th data-i18n="products.th_series">Series</th>
+              <th data-i18n="products.th_category">Category</th>
+              <th data-i18n="products.th_status">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="product-table-name" data-i18n="products.t1_name">AH Skin Comfort Spray</td><td data-i18n="products.t1_cat">Daily Care</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t2_name">AH Nasal Comfort Spray</td><td data-i18n="products.t2_cat">Daily Care</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t3_name">AH Eye Area Hydrating Spray</td><td data-i18n="products.t3_cat">Daily Care</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t4_name">AH Intimate Sensitivity Spray</td><td data-i18n="products.t4_cat">Daily Care</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t5_name">Professor Sinn Rapid Soothing Spray</td><td data-i18n="products.t5_cat">Body Soothing</td><td><span class="status status--test" data-i18n="products.status_test">Market Testing</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t6_name">Professor Sinn Deep Soothing Balm EX</td><td data-i18n="products.t6_cat">Body Soothing</td><td><span class="status status--planned" data-i18n="products.status_planned">Planned</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t7_name">Professor Sinn Women's Cycle Relief</td><td data-i18n="products.t7_cat">Body Soothing</td><td><span class="status status--planned" data-i18n="products.status_planned">Planned</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t8_name">Qingcha / iTea</td><td data-i18n="products.t8_cat">Dietary Supplement</td><td><span class="status status--core" data-i18n="products.status_core">Core Focus</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t9_name">Pharmaceutical-Grade Omega-3</td><td data-i18n="products.t9_cat">Dietary Supplement</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+            <tr><td class="product-table-name" data-i18n="products.t10_name">Black Water</td><td data-i18n="products.t10_cat">Dietary Supplement</td><td><span class="status status--dev" data-i18n="products.status_dev">In Development</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Product Detail Cards -->
+      <div class="product-detail-grid">
+        <div class="product-detail-card">
+          <div class="product-detail-visual">
+            <img src="images/products/professor-sinn.png" alt="Professor Sinn Rapid Soothing Spray" loading="lazy">
+          </div>
+          <div class="product-detail-info">
+            <span class="product-detail-tag" data-i18n="products.card1_tag">Body Soothing · Market Testing</span>
+            <h3 class="product-detail-name" data-i18n="products.card1_name">Rapid Soothing Spray</h3>
+            <p class="product-detail-desc" data-i18n="products.card1_desc">A fresh herbal formulation for everyday aches and discomfort.</p>
+            <div class="product-detail-meta">
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card1_signal_label">Signals</span><span class="meta-value" data-i18n="products.card1_signal_value">Pain · Ache · Discomfort</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card1_std_label">Standard</span><span class="meta-value" data-i18n="products.card1_std_value">Fast · Refreshing · Non-sticky</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card1_feel_label">Feel</span><span class="meta-value" data-i18n="products.card1_feel_value">Instant relief, portable use</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-detail-card">
+          <div class="product-detail-visual">
+            <img src="images/products/ah-skin-comfort.png" alt="AH Skin Comfort Spray" loading="lazy">
+          </div>
+          <div class="product-detail-info">
+            <span class="product-detail-tag" data-i18n="products.card2_tag">Daily Care · In Development</span>
+            <h3 class="product-detail-name" data-i18n="products.card2_name">Skin Comfort Spray</h3>
+            <p class="product-detail-desc" data-i18n="products.card2_desc">Low-irritation, low-burden everyday skin dialogue.</p>
+            <div class="product-detail-meta">
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card2_signal_label">Signals</span><span class="meta-value" data-i18n="products.card2_signal_value">Dry · Itchy · Flush</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card2_std_label">Standard</span><span class="meta-value" data-i18n="products.card2_std_value">Low-irritation · Low-burden · Repeatable</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card2_feel_label">Feel</span><span class="meta-value" data-i18n="products.card2_feel_value">Clean · Comfortable · No pressure</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-detail-card">
+          <div class="product-detail-visual">
+            <img src="images/products/qingcha-tea.png" alt="Qingcha iTea" loading="lazy">
+          </div>
+          <div class="product-detail-info">
+            <span class="product-detail-tag" data-i18n="products.card3_tag">Dietary Supplement · Core Focus</span>
+            <h3 class="product-detail-name" data-i18n="products.card3_name">Qingcha / iTea</h3>
+            <p class="product-detail-desc" data-i18n="products.card3_desc">Organic tea leaves, decaffeinated, with a lingering finish.</p>
+            <div class="product-detail-meta">
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card3_signal_label">Signals</span><span class="meta-value" data-i18n="products.card3_signal_value">Constipation · Elevated blood sugar · Light taste</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card3_std_label">Standard</span><span class="meta-value" data-i18n="products.card3_std_value">Organic tea leaves</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card3_feel_label">Feel</span><span class="meta-value" data-i18n="products.card3_feel_value">Subtle aroma · Lingering finish</span></div>
+              <div class="meta-item"><span class="meta-label" data-i18n="products.card3_spec_label">Spec</span><span class="meta-value" data-i18n="products.card3_spec_value">350ml × 3 per set</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="product-note" data-i18n="products.note">Prescription and medical-grade products are handled separately through appropriate professional and regulatory channels.</p>
+    </div>
+  </section>
+
+  <!-- ========== AGING SCIENCE ========== -->
+  <section class="section aging-section" id="science">
+    <div class="section-container">
+      <div class="section-intro section-intro--center">
+        <p class="section-eyebrow" data-i18n="science.eyebrow">Scientific Framework</p>
+        <h2 class="section-title" data-i18n-html="science.title">Modern aging science,<br>as a language of understanding.</h2>
+        <p class="section-lead" data-i18n="science.lead">Aging is not merely the passage of time — it is the accumulation of long-term changes across multiple body systems.</p>
+      </div>
+
+      <div class="aging-response-grid">
+        <div class="aging-response-card"><h4 data-i18n="science.r1">Recovery</h4><p>Recovery</p></div>
+        <div class="aging-response-card"><h4 data-i18n="science.r2">Anti-Inflammation</h4><p>Anti-Inflammation</p></div>
+        <div class="aging-response-card"><h4 data-i18n="science.r3">Metabolism</h4><p>Metabolism</p></div>
+        <div class="aging-response-card"><h4 data-i18n="science.r4">Repair</h4><p>Repair</p></div>
+        <div class="aging-response-card"><h4 data-i18n="science.r5">Stability</h4><p>Stability</p></div>
+      </div>
+
+      <div class="aging-grid">
+        <div class="aging-card"><span class="aging-number">01</span><h4 data-i18n="science.h1">Genomic Instability</h4><p>Genomic Instability</p></div>
+        <div class="aging-card"><span class="aging-number">02</span><h4 data-i18n="science.h2">Telomere Attrition</h4><p>Telomere Attrition</p></div>
+        <div class="aging-card"><span class="aging-number">03</span><h4 data-i18n="science.h3">Epigenetic Alterations</h4><p>Epigenetic Alterations</p></div>
+        <div class="aging-card"><span class="aging-number">04</span><h4 data-i18n="science.h4">Loss of Proteostasis</h4><p>Loss of Proteostasis</p></div>
+        <div class="aging-card"><span class="aging-number">05</span><h4 data-i18n="science.h5">Disabled Macroautophagy</h4><p>Disabled Macroautophagy</p></div>
+        <div class="aging-card"><span class="aging-number">06</span><h4 data-i18n="science.h6">Deregulated Nutrient-Sensing</h4><p>Deregulated Nutrient-Sensing</p></div>
+        <div class="aging-card"><span class="aging-number">07</span><h4 data-i18n="science.h7">Mitochondrial Dysfunction</h4><p>Mitochondrial Dysfunction</p><span class="aging-new" data-i18n="science.h7_new">New 2025</span></div>
+        <div class="aging-card"><span class="aging-number">08</span><h4 data-i18n="science.h8">Cellular Senescence</h4><p>Cellular Senescence</p></div>
+        <div class="aging-card"><span class="aging-number">09</span><h4 data-i18n="science.h9">Stem Cell Exhaustion</h4><p>Stem Cell Exhaustion</p></div>
+        <div class="aging-card"><span class="aging-number">10</span><h4 data-i18n="science.h10">Altered Intercellular Communication</h4><p>Altered Intercellular Communication</p></div>
+        <div class="aging-card"><span class="aging-number">11</span><h4 data-i18n="science.h11">Chronic Inflammation</h4><p>Chronic Inflammation</p></div>
+        <div class="aging-card"><span class="aging-number">12</span><h4 data-i18n="science.h12">Dysbiosis</h4><p>Dysbiosis</p></div>
+        <div class="aging-card"><span class="aging-number">13</span><h4 data-i18n="science.h13">Extracellular Matrix Alterations</h4><p>Extracellular Matrix Alterations</p></div>
+        <div class="aging-card"><span class="aging-number">14</span><h4 data-i18n="science.h14">Psychosocial Isolation</h4><p>Psychosocial Isolation</p></div>
+      </div>
+      <p class="aging-source" data-i18n="science.source">Sources: López-Otín et al., Cell 186:243-278, 2023 · Kroemer et al., Geromedicine, 2025</p>
+    </div>
+  </section>
+
+  <!-- ========== BRAND CULTURE ========== -->
+  <section class="culture-section" id="culture">
+    <div class="culture-block culture-block--dark">
+      <div class="culture-split">
+        <div class="culture-image">
+          <img src="images/culture/invisible-hand.png" alt="The Invisible Hand" loading="lazy">
+        </div>
+        <div class="culture-block-inner">
+          <p class="culture-eyebrow" data-i18n="culture.eyebrow1">Brand Philosophy</p>
+          <h2 class="culture-title" data-i18n="culture.title1">The Invisible Hand</h2>
+          <p class="culture-text" data-i18n-html="culture.text1">Someone quietly puts on those glasses and gloves.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="culture-block culture-block--warm">
+      <div class="culture-split culture-split--reverse">
+        <div class="culture-image">
+          <img src="images/culture/daily-wellness.png" alt="Daily Wellness Essentials" loading="lazy">
+        </div>
+        <div class="culture-block-inner">
+          <p class="culture-eyebrow" data-i18n="culture.eyebrow2">Core Principle</p>
+          <h2 class="culture-title" data-i18n="culture.title2">Aesthetic Value × Practical Effectiveness</h2>
+          <p class="culture-text" data-i18n-html="culture.text2">Beauty is not enough. It must work.</p>
+          <div class="culture-values">
+            <div class="value-item"><span class="value-label" data-i18n="culture.v1">Genuinely usable</span><span class="value-en">Genuinely usable</span></div>
+            <div class="value-item"><span class="value-label" data-i18n="culture.v2">Genuinely effective</span><span class="value-en">Genuinely effective</span></div>
+            <div class="value-item"><span class="value-label" data-i18n="culture.v3">Genuinely comfortable</span><span class="value-en">Genuinely comfortable</span></div>
+            <div class="value-item"><span class="value-label" data-i18n="culture.v4">Improves daily feeling</span><span class="value-en">Improves daily feeling</span></div>
+            <div class="value-item"><span class="value-label" data-i18n="culture.v5">Can be used long-term</span><span class="value-en">Can be used long-term</span></div>
+            <div class="value-item"><span class="value-label" data-i18n="culture.v6">Enduring and trusted</span><span class="value-en">Enduring and trusted</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="culture-block culture-block--light">
+      <div class="culture-block-inner culture-block-inner--narrow">
+        <p class="culture-eyebrow" data-i18n="culture.eyebrow3">On Taste</p>
+        <h2 class="culture-title" data-i18n="culture.title3">Taste is disciplined curation.</h2>
+        <p class="culture-text" data-i18n-html="culture.text3">True aesthetics are not about instant impression.</p>
+      </div>
+    </div>
+
+    <div class="culture-block culture-block--founder">
+      <div class="culture-block-inner culture-block-inner--narrow">
+        <p class="culture-eyebrow" data-i18n="culture.eyebrow4">Founder's Note</p>
+        <h2 class="culture-title" data-i18n="culture.title4">Why this exists.</h2>
+        <div class="founder-text">
+          <p data-i18n="culture.f1">I built Alessandro's Health because I was tired of noise.</p>
+          <p data-i18n="culture.f2">Tired of products that promise everything and deliver confusion.</p>
+          <p data-i18n="culture.f3">I wanted something simpler.</p>
+          <p data-i18n="culture.f4">This is not about luxury. This is about clarity.</p>
+          <p data-i18n="culture.f5">Every product in this system exists because I use it myself.</p>
+          <p class="founder-sig"><span data-i18n="culture.fsig">— Alessandro</span><br><span data-i18n="culture.fcity">Hong Kong, 2026</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="culture-block culture-block--accent">
+      <div class="culture-block-inner">
+        <p class="culture-eyebrow" data-i18n="culture.eyebrow5">Three Worlds. One Standard.</p>
+        <div class="three-worlds">
+          <div class="world-item">
+            <h3>Alessandro's Health</h3>
+            <p data-i18n="culture.w1_desc">Elevate your quality of life</p>
+          </div>
+          <div class="world-divider"></div>
+          <div class="world-item">
+            <h3>Alessandro's Room</h3>
+            <p data-i18n="culture.w2_desc">Timeless aesthetics</p>
+          </div>
+          <div class="world-divider"></div>
+          <div class="world-item">
+            <h3>Alessandro's Cuisine</h3>
+            <p data-i18n="culture.w3_desc">A healthy private table</p>
+          </div>
+        </div>
+        <p class="culture-footnote" data-i18n="culture.footnote">These are not three product lines. They are the same Alessandro's Standard practised across different life domains.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PHILOSOPHY CLOSE ========== -->
+  <section class="philosophy-close">
+    <div class="philosophy-close-inner">
+      <blockquote>
+        <p data-i18n-html="philosophy">The goal of Alessandro's Health is not to create more choices.</p>
+      </blockquote>
+      <span class="philosophy-sig" data-i18n="signature">Designed with restraint.</span>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact-section" id="contact">
+    <div class="section-container">
+      <div class="section-intro section-intro--center">
+        <p class="section-eyebrow" data-i18n="contact.eyebrow">Contact Us</p>
+        <h2 class="section-title" data-i18n-html="contact.title">Product, partnership, distribution,<br>or media enquiries.</h2>
+      </div>
+      <div class="contact-actions">
+        <a href="mailto:info@alessandroshealth.com" class="contact-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          info@alessandroshealth.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">Alessandro's Health</span>
+          <p class="footer-tagline" data-i18n="footer.tagline">Formulated with restraint, for everyday care.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+          <a href="#" data-i18n="footer.disclaimer">Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2026 Alessandro's Series. Hong Kong.</p>
+        <p class="footer-motto" data-i18n="footer.motto">Every detail deserves to be treated with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js?v=1"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
